@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
 * File: Names.java
 * Author: Gubis Zsombor Dániel
@@ -9,5 +11,5 @@
 */
 
 public interface Names {
-    
+    public ArrayList<String> getNames();
 }
