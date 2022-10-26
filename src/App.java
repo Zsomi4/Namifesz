@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
 * File: App.java
 * Author: Gubis Zsombor Dániel
@@ -10,5 +12,10 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
+        Publication publ = new Publication();
+        ArrayList<String> nameList = publ.getNames();
+        for (String names : nameList) {
+            System.out.println(names);
+        }
     }
 }
