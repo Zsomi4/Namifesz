@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /*
 * File: Publication.java
@@ -14,7 +15,11 @@ public class Publication implements Names {
 
     @Override
     public ArrayList<String> getNames() {
-        return null;
+        String[] names = {"Béla", "Géza"};
+        ArrayList<String> nameList =
+        new ArrayList<>(Arrays.asList(names));
+
+        return nameList;
     }
     
 }
